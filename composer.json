@@ -1,0 +1,11 @@
+{
+    "name": "backend/php-composer",
+    "autoload": {
+    "psr-4": {
+         "Cubes\\":"src/Cubes"
+    }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
